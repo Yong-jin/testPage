@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-
+        <p>Changed 2nd</p>
         <button onClick={()=>{navigate('/')}}>Home</button>
         <button onClick={()=>{navigate('/submain')}}>SubMain</button>
 
