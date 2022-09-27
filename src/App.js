@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <img src={process.env.PUBLIC_URL +  '/images/food3.jpg'} width="100px" height="80px"/>
         <p>Changed 2nd</p>
         <button onClick={()=>{navigate('/')}}>Home</button>
         <button onClick={()=>{navigate('/submain')}}>SubMain</button>
